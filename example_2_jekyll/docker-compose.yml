@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  jekyll:
+    build: .
+    ports:
+      - 8001:4000
+      - 35729:35729
+    volumes:
+      - $PWD:/srv/jekyll:consistent
+      - $PWD/vendor:/usr/local/bundle
