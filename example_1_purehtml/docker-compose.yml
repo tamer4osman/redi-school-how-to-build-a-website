@@ -1,9 +1,18 @@
 version: "3.4"
 
+networks:
+  redi_school:
+    external:
+      name: redi_school
+
 services:
   nginx:
     build: .
     ports:
       - 8000:80
+    networks:
+      - redi_school
     volumes:
       - $PWD:/usr/share/nginx/html
+    environment:
+      - VIRTUAL_HOST=redi-school-html.develop

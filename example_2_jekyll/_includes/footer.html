@@ -22,6 +22,14 @@
           <li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
           <li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
           <li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+
+          {% for link in column.links %}
+          <li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+            {% if link.social_icon %}
+            {% include social-icon.html icon=link.social_icon %}
+            {% endif %}
+            {{ link.name }}</a></li>
+          {% endfor %}
         </ul>
       </section>
     </div>

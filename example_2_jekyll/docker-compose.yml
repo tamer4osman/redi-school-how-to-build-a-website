@@ -1,11 +1,20 @@
 version: "3.4"
 
+networks:
+  redi_school:
+    external:
+      name: redi_school
+
 services:
   jekyll:
     build: .
     ports:
       - 8001:4000
-      - 35729:35729
+    networks:
+      - redi_school
     volumes:
       - $PWD:/srv/jekyll:consistent
       - $PWD/vendor:/usr/local/bundle
+    environment:
+      - VIRTUAL_HOST=redi-school-jekyll.develop
+      - VIRTUAL_PORT=4000
