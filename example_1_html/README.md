@@ -1,4 +1,4 @@
-# Example 2: HTML
+# Example 1: HTML
 
 ### Introduction:
 
