@@ -54,3 +54,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - entrypoint.sh
+  - Dockerfile
+  - docker-compose.yml
