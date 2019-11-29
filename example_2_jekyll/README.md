@@ -72,7 +72,8 @@ It will route your request from your browser to the container and handle the con
 
 ### To initialise the project:
 
-When I started this project, the only files inside the folder were:
+This being a pre-built project, it already has everything it needed in order to run. But lets assume you want to 
+build a new project from scratch. When I started this project, the only files inside the folder were:
 ```
 - docker-compose.yml
 - Dockerfile
