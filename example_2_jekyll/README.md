@@ -43,9 +43,10 @@ Open your browser to [http://localhost/8080](http://localhost/8080) and the webs
 
 ### Create a 'custom domain' for local development
 
-Even better, is to edit the file
-Windows: c:\Windows\System32\Drivers\etc\hosts
-MacOs/Linux: /etc/hosts
+Even better, is to edit the file:
+
+- Windows: `c:\Windows\System32\Drivers\etc\hosts`
+- MacOs/Linux: `/etc/hosts`
 
 Add an entry like this
 ```shell script
