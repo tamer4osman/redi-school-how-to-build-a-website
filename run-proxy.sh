@@ -7,6 +7,8 @@
 docker network create redi_school &>/dev/null && echo "Network was created" || echo "Network already existed"
 
 if [ -z "$(docker ps | grep redi_frontend_proxy)" ]; then
+  docker container rm redi_frontend_proxy &>/dev/null
+
   container_id=$(docker run -d --restart always \
           --name redi_frontend_proxy \
           --network redi_school \
