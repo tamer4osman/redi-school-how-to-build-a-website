@@ -41,6 +41,8 @@ The left hand side is always your machine, the right hand side refers to dockers
 
 Open your browser to [http://localhost/8080](http://localhost/8080) and the website should appear.
 
+### Create a 'custom domain' for local development
+
 Even better, is to edit the file
 Windows: c:\Windows\System32\Drivers\etc\hosts
 MacOs/Linux: /etc/hosts
