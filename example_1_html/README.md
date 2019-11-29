@@ -37,7 +37,7 @@ You can see the ports column is filled with various entries. The interesting one
 This means that your computer has opened port 8080 and is mapping it to the docker port 80 internally. 
 The left hand side is always your machine, the right hand side refers to dockers configuration.
 
-Open your browser to [http://localhost/8080](http://localhost/8080) and the website should appear.
+Open your browser to [http://localhost:8080](http://localhost:8080) and the website should appear.
 
 ### Create a 'custom domain' for local development
 

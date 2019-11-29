@@ -39,7 +39,7 @@ You can see the ports column is filled with various entries. The interesting one
 This means that your computer has opened port 8081 and is mapping it to the docker port 4000 internally. 
 The left hand side is always your machine, the right hand side refers to dockers configuration.
 
-Open your browser to [http://localhost/8081](http://localhost/8081) and the website should appear.
+Open your browser to [http://localhost:8081](http://localhost:8081) and the website should appear.
 
 ### Create a 'custom domain' for local development
 
