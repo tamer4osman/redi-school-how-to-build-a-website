@@ -1,11 +1,15 @@
 # Example 2: Jekyll
 
-### Brief
+### Introduction:
 
 This example will run inside docker as a `jekyll serve` project. Which will allow you to edit the source
 and save instantly updating the website which is running.
 
-### Running the Project
+The project is a simple HTML5 template which has been copied into a Jekyll project and using it's 
+templating system, broken up into parts and will serve as a way to explain how a flat HTML project 
+consisting of multiple pages can be integrated with the system.
+
+### Running the Project:
 
 Execute this command:
 ```shell script
