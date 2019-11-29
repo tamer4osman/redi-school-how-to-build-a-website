@@ -1,6 +1,6 @@
-# Redi School Workshop: How to build a website
+# RedI School Workshop: How to build a website
 
-To present a workshop to the ReDi School. I wrote this repository with examples so I could demonstrate
+To present a workshop to the ReDI School. I wrote this repository with examples so I could demonstrate
 how to use Docker to host the files I am working with in a realistic development environment. 
 
 Afterwards, I explain how to take the basic HTML template I started with and brought it into a Jekyll
@@ -21,7 +21,12 @@ host your own website on your own server when developing your GitHub projects.
 Each example runs independent of the other. There are `README.md` files in each example folder which
 explain the details of each example.
 
+You need to have [Docker](https://docker.com) installed in order to run these examples. It is preferrable if you're 
+using Linux or MacOs. Windows users will have to run the frontend proxy scripts manually but 
+that should be easy enough since they are just a couple of commands.
+
 ### Special Thanks
 
-To Plista for letting me do the workshop and to the ReDi School for bringing the Students. I hope you 
-learned something interesting! I'll try to make some jokes ;)
+To [Plista](https://plista.com) for letting me do the workshop and to the 
+[ReDI School](https://www.redi-school.org/berlin) for bringing the Students. I hope you learned 
+something interesting! I'll try to make some jokes ;)
