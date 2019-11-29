@@ -13,7 +13,7 @@ services:
     networks:
       - redi_school
     volumes:
-      - $PWD:/srv/jekyll:consistent
+      - $PWD:/srv/jekyll
       - $PWD/vendor:/usr/local/bundle
     environment:
       - VIRTUAL_HOST=redi-school-jekyll.develop
