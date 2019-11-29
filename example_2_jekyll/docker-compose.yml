@@ -9,7 +9,7 @@ services:
   jekyll:
     build: .
     ports:
-      - 8001:4000
+      - 8081:4000
     networks:
       - redi_school
     volumes:
