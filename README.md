@@ -1,5 +1,7 @@
 # RedI School Workshop: How to build a website
 
+The slides to go alongside this project are here: [Docker, Git, and Jekyll](https://docs.google.com/presentation/d/1UCyIwc56Am-vBH9WJJ6p5ku-Kd9KRgtKK2H1I--4a-E/edit?usp=sharing)
+
 My name is [Chris Thomas](https://github.com/christhomas) and I'm a Senior Software Engineer at plista.
 I've been developing software in various forms for around 20 years and I'm going to present a 
 workshop to the ReDI School. I wrote this repository with examples so I could demonstrate how 
