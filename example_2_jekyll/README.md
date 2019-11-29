@@ -43,12 +43,12 @@ Open your browser to [http://localhost/8080](http://localhost/8080) and the webs
 
 ### Create a 'custom domain' for local development
 
-Even better, is to edit the file:
+Even better than just accessing over `localhost`, is to edit the file:
 
 - Windows: `c:\Windows\System32\Drivers\etc\hosts`
 - MacOs/Linux: `/etc/hosts`
 
-Add an entry like this
+Add an entry like this:
 ```shell script
 127.0.0.1 redi-school-jekyll.develop
 ````
