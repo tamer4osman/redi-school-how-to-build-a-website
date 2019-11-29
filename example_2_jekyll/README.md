@@ -35,11 +35,11 @@ d1de01b4889e        example_1_html_nginx             "nginx -g 'daemon of…"   
 6d135d2c7290        christhomas/nginx-proxy:alpine   "/app/docker-entrypo…"   25 minutes ago      Up 25 minutes       0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp             redi_frontend_proxy
 ```
 
-You can see the ports column is filled with various entries. The interesting one is `0.0.0.0:8080->80/tcp`.
-This means that your computer has opened port 8080 and is mapping it to the docker port 80 internally. 
+You can see the ports column is filled with various entries. The interesting one is `0.0.0.0:8081->4000/tcp`.
+This means that your computer has opened port 8081 and is mapping it to the docker port 4000 internally. 
 The left hand side is always your machine, the right hand side refers to dockers configuration.
 
-Open your browser to [http://localhost/8080](http://localhost/8080) and the website should appear.
+Open your browser to [http://localhost/8081](http://localhost/8081) and the website should appear.
 
 ### Create a 'custom domain' for local development
 
