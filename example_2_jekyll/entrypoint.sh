@@ -7,8 +7,6 @@ function setup ()
   setfacl -dR -m u:jekyll:rwX -m u:$(whoami):rwX $1
 }
 
-setup /srv/jekyll/.jekyll-cache
-setup /srv/jekyll/vendor
-setup /srv/jekyll/_site
+setup /srv/jekyll/
 
 exec "$@"
