@@ -37,7 +37,7 @@ You can see the ports column is filled with various entries. The interesting one
 This means that your computer has opened port 8080 and is mapping it to the docker port 80 internally. 
 The left hand side is always your machine, the right hand side refers to dockers configuration.
 
-Open your browser to [http://localhost/8080](http://localhost/8080) and the website should appear.
+Open your browser to [http://localhost/8080](http://localhost/8080){:target="_blank"} and the website should appear.
 
 ### Create a 'custom domain' for local development
 
@@ -51,7 +51,7 @@ Add an entry like this:
 127.0.0.1 redi-school-html.develop
 ````
 
-Then you can open the browser to [http://redi-school-html.develop](http://redi-school-html.develop)
+Then you can open the browser to [http://redi-school-html.develop](http://redi-school-html.develop){:target="_blank"}
 
 You'll notice you don't need to put any port this time after the url. This is because the frontend-proxy
 is handling everything through port 80, which browsers automatically use if you don't specify a port.
