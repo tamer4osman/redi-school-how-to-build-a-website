@@ -16,6 +16,11 @@ host your own website on your own server when developing your GitHub projects.
 - `run-proxy.sh`: A script to run a frontend-proxy
 - `stop-proxy.sh`: A script to stop the frontend-proxy once we are done with it
 
+### Getting Started
+
+Each example runs independent of the other. There are `README.md` files in each example folder which
+explain the details of each example.
+
 ### Special Thanks
 
 To Plista for letting me do the workshop and to the ReDi School for bringing the Students. I hope you 
