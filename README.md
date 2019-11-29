@@ -1,7 +1,8 @@
 # RedI School Workshop: How to build a website
 
-To present a workshop to the ReDI School. I wrote this repository with examples so I could demonstrate
-how to use Docker to host the files I am working with in a realistic development environment. 
+My name is [Chris Thomas](https://github.com/christhomas) and I'm going to present a workshop to 
+the ReDI School. I wrote this repository with examples so I could demonstrate how to use Docker 
+to host the files I am working with in a realistic development environment. 
 
 Afterwards, I explain how to take the basic HTML template I started with and brought it into a Jekyll
 project and used it's templating system to break up the static HTML into a more dynamic system of parts
